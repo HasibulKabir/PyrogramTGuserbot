@@ -1,0 +1,7 @@
+requests
+https://github.com/pyrogram/pyrogram/archive/asyncio.zip
+tgcrypto
+asyncio
+aiohttp
+pySmartDL
+bs4

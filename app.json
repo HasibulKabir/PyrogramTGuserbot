@@ -1,0 +1,34 @@
+{
+  "name": "PyrogramTGUserBot",
+  "description": "PyroGram UserBot by @HKProjects.",
+  "keywords": [
+    "telegram-userbot",
+    "pyrogram",
+    "userbot",
+    "pyrogram-userbot"
+  ],
+  "repository": "https://github.com/HasibulKabir/PyrogramTGUserBot",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "SESSION": {
+      "description": "Generate this value by running python3 generatesession.py locally",
+      "value": ""
+    },
+    "LGROUP": {
+      "description": "Generate this by get id bot. Get a Logger group id.",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+}
